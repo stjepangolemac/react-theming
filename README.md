@@ -3,11 +3,11 @@
 Small package with some utilities for theming React apps.
 
 ### How to use
-`npm i --save blablabla.git`
+`npm i --save https://github.com/stjepangolemac/react-theming.git`
 
-or
+or if using Yarn
 
-`yarn add blablabla.git`
+`yarn add https://github.com/stjepangolemac/react-theming.git`
 
 Then write your theme somewhere:
 
