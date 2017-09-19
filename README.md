@@ -37,7 +37,6 @@ Then in the root component of the app:
 
   import theme from './theme'
 
-
   class App extends Component { ... }
 
   render (
