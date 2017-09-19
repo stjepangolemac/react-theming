@@ -1,6 +1,6 @@
 # react-theming
 
-Small package with some utilities for theming React web apps.
+Small package with some utilities for theming React apps.
 
 ### How to use
 `npm i --save blablabla.git`
