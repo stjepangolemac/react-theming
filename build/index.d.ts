@@ -1,5 +1,7 @@
-declare class ThemeProvider { }
+import { Component } from 'react'
 
-declare function withTheme (Component: any): any
-
-declare function themeProviderDecorator (theme: any): (story: any) => any
+declare module 'react-theming' {
+  class ThemeProvider extends Component<any, any> { }
+  function withTheme (Component: any): any
+  function themeProviderDecorator (theme: any): (story: any) => any
+}
