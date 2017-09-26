@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const withTheme = (ComponentToWrap) => {
     return class ThemeComponent extends Component {
         static contextTypes = {
-            theme: PropTypes.object.isRequired,
+            theme: PropTypes.object,
         }
 
         render() {

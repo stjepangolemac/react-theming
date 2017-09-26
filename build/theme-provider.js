@@ -50,7 +50,7 @@ var ThemeProvider = function (_Component) {
 }(_react.Component);
 
 ThemeProvider.childContextTypes = {
-    theme: _propTypes2.default.object.isRequired
+    theme: _propTypes2.default.object
 };
 
 

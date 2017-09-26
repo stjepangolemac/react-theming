@@ -48,7 +48,7 @@ var withTheme = function withTheme(ComponentToWrap) {
 
         return ThemeComponent;
     }(_react.Component), _class.contextTypes = {
-        theme: _propTypes2.default.object.isRequired
+        theme: _propTypes2.default.object
     }, _temp;
 };
 exports.default = withTheme;

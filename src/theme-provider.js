@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 class ThemeProvider extends Component {
     static childContextTypes = {
-        theme: PropTypes.object.isRequired,
+        theme: PropTypes.object,
     }
 
     getChildContext() {
